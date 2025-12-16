@@ -31,3 +31,33 @@ Implementations live in downstream repositories.
 
 ## Repository Structure
 
+- stc-core/
+  - docs/ # Architectural and conceptual documentation
+  - schemas/ # Formal schemas (JSON/YAML) for STC entities
+  - standards/ # Naming, versioning, and interface rules
+- README.md
+
+## Relationship to the STC
+
+`stc-core` defines the **contract** that all STC subsystems adhere to.  
+Simulation, planning, robotics, and analysis tools must conform to these definitions to be considered STC-compatible.
+
+## Status
+
+**Phase 1 — Foundations**  
+Active development. Interfaces are evolving and subject to change.
+
+## Versioning
+
+Semantic versioning is used:
+- `v0.x` — evolving standards
+- `v1.0` — stable STC core specification
+
+## License
+
+Apache License 2.0
+
+## Author
+
+Toby Anderson  
+Robotics & Mechatronics Engineering (AI) — Monash University
